@@ -33,3 +33,8 @@ if (process.env.NODE_ENV === 'dev') {
 process.env.URLDB = urlDB;
 
 // mongodb + srv: //gio:<password>@cluster0-waf24.mongodb.net/test?retryWrites=true&w=majority
+
+
+//Google client ID
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '1036813487700-ado4r8euitk96vqjslh9k6ms00djhsrk.apps.googleusercontent.com';
