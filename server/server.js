@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const path = require('path');
 
 
-require('../config/config');
+require('./config/config');
 
 const bodyParser = require('body-parser');
 

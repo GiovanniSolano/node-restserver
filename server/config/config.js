@@ -32,7 +32,6 @@ if (process.env.NODE_ENV === 'dev') {
 
 process.env.URLDB = urlDB;
 
-// mongodb + srv: //gio:<password>@cluster0-waf24.mongodb.net/test?retryWrites=true&w=majority
 
 
 //Google client ID
